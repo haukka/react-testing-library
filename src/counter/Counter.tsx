@@ -15,8 +15,8 @@ const Counter = () => {
 
     return (
         <div>
-            <button onClick={increase}>Up</button>
-            <button onClick={decrease}>Down</button>
+            <button onClick={increase}>Increment</button>
+            <button onClick={decrease}>Decrement</button>
             <span data-testid="count">{count}</span>
         </div>
     );
